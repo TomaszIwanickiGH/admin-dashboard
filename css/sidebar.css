@@ -1,0 +1,51 @@
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: #1992D4;
+    color: #FFF;
+}
+
+.sidebar a {
+    color: unset;
+    text-decoration: none;
+}
+
+.dashboard {
+    display: flex;
+    align-items: center;
+
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.icon-th {
+    font-size: 24px;
+    margin-right: .5rem;
+}
+
+.navbar,
+.help {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar ul,
+.help ul {
+    list-style: none;
+}
+
+.navbar li,
+.help li {
+    margin: 1rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar i,
+.help i {
+    margin-right: 1rem;
+}
+
+.help {
+    margin-top: 2rem;
+}
